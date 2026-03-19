@@ -27,7 +27,10 @@
             "assets": [
                 "src/assets"
             ],
-            "styles": ["src/styles.scss"]
+            "styles": [
+              "src/styles.scss",
+              "node_modules/leaflet/dist/leaflet.css"
+            ]
           },
           "configurations": {
             "production": {
